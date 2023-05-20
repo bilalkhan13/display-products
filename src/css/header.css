@@ -1,0 +1,30 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1rem;
+  margin-bottom: 25px;
+}
+
+.back-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin: 0;
+}
+
+.header-title {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.logout {
+  float: right;
+  margin: 0;
+}

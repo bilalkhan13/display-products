@@ -1,0 +1,23 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background-color: var(--color-primary);
+  align-items: center;
+  height: auto;
+  padding: 10px;
+}
+
+.goBack {
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-weight: 900;
+  border: 2px solid var(--color-primary-text);
+  text-decoration: none;
+  background-color: #fdb62f;
+}
+.goBack:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
